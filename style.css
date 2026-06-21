@@ -10,12 +10,22 @@ scroll-behavior:smooth;
 
 body{
 font-family:'Orbitron',sans-serif;
-background:#000;
+background:
+linear-gradient(
+rgba(0,0,0,0.55),
+rgba(0,0,0,0.85)
+),
+url("https://i.postimg.cc/gk2DcTf9/file-00000000b12871faba60accf1d3ee4e2.png");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+background-attachment:fixed;
+
 color:white;
 overflow-x:hidden;
 min-height:100vh;
 }
-
 /* LOADER */
 
 #loader{
